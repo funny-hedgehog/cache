@@ -2,6 +2,7 @@ import './App.css';
 import data from './data.json';
 import compass from './assets/compass.svg';
 import picture from './assets/picture.jpg';
+import test from './scripts/test';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           return <li key={id}>{title}</li>
         })}
       </ul>
+      <script src={test} />
     </div>
   );
 }
